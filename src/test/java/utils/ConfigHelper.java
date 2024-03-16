@@ -7,9 +7,6 @@ import java.util.Properties;
 
 public class ConfigHelper {
 
-    Properties configFile;
-    //Constructor - not required, use default. Should I include Lombok @NoArgsConstructor?
-
     public static String getProperty(String key)
     {
         try {
@@ -27,7 +24,7 @@ public class ConfigHelper {
         {
             e.printStackTrace();
         }
-        return "Exception encounered";
+        return "Exception encountered";
 
     }
 
