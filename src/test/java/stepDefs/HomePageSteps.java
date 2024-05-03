@@ -5,10 +5,15 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import pages.HomePage;
+import utils.Driver;
 import utils.ExamineElements;
 import utils.GetElements;
+
+import java.nio.channels.Selector;
 
 public class HomePageSteps {
 
